@@ -1,0 +1,6 @@
+2022-07-15 22:10:58 - INFO - Run arguments: Namespace(batch_size=256, bits=1, dataset='cifar10', epochs=2500, evaluate='results/fp32/vgg_cifar10_lr0.1_SGD.pth', gpus='0', input_size=None, lr=0.1, model='vgg_cifar10', model_config='', momentum=0.9, optimizer='SGD', print_freq=10, results_dir='./eval', resume='', save='eval_vgg_cifar10_1b', start_epoch=0, type='torch.cuda.FloatTensor', weight_decay=0.0001, workers=8)
+2022-07-15 22:11:01 - INFO - Number of parameters: 14033418
+2022-07-15 22:11:03 - INFO - EVALUATING - Epoch: [0][0/40]	Loss 0.5154 (0.5154)	Prec@1 92.188 (92.188)	Prec@5 99.609 (99.609)
+2022-07-15 22:11:03 - INFO - EVALUATING - Epoch: [0][10/40]	Loss 0.5133 (0.5630)	Prec@1 90.625 (89.737)	Prec@5 99.609 (98.260)
+2022-07-15 22:11:03 - INFO - EVALUATING - Epoch: [0][20/40]	Loss 0.5325 (0.5653)	Prec@1 91.406 (89.379)	Prec@5 99.219 (98.363)
+2022-07-15 22:11:04 - INFO - EVALUATING - Epoch: [0][30/40]	Loss 0.6049 (0.5659)	Prec@1 85.156 (89.201)	Prec@5 99.219 (98.438)
